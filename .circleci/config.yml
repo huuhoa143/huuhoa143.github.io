@@ -22,7 +22,7 @@ jobs:
             git config --global user.email "huuhoa14399@gmail.com"
             git config --global user.name "huuhoa143"
             echo "machine github.com login huuhoa143 password $GITHUB_TOKEN" > ~/.netrc
-            cd website && npm install && GIT_USER=huuhoa143 CURRENT_BRANCH=master USE_SSH=true CUSTOM_COMMIT_MESSAGE="[skip ci]" npm run publish-gh-pages
+            cd website && npm install && GIT_USER=huuhoa143 CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
 
 workflows:
   version: 2
