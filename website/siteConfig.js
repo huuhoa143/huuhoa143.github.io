@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'A hi hi', // Title for your website.
+  title: 'A hi hi he he', // Title for your website.
   tagline: 'Datagrin Test',
   url: 'https://huuhoa143.github.io', // Your website URL
   baseUrl: '/huuhoa143.github.io/', // Base URL for your project */
