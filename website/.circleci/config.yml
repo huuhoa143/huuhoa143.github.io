@@ -13,6 +13,8 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:8.11.1
+      environment:
+        GITHUB_TOKEN: 4832211ab1547fbccf0c3f656b0e3e1892326116
 
     steps:
       - checkout
